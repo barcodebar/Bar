@@ -1,32 +1,41 @@
 <svg width="460" height="120" viewBox="0 0 460 120" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f5f5f5"/>
-      <stop offset="20%" stop-color="#d9d9d9"/>
-      <stop offset="45%" stop-color="#a6a6a6"/>
-      <stop offset="65%" stop-color="#e5e5e5"/>
-      <stop offset="100%" stop-color="#7a7a7a"/>
+      <stop offset="0%" stop-color="#f8f8f8"/>
+      <stop offset="18%" stop-color="#ececec"/>
+      <stop offset="38%" stop-color="#c8c8c8"/>
+      <stop offset="58%" stop-color="#f2f2f2"/>
+      <stop offset="78%" stop-color="#9f9f9f"/>
+      <stop offset="100%" stop-color="#dddddd"/>
     </linearGradient>
+    <linearGradient id="goldGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff4cf"/>
+      <stop offset="45%" stop-color="#d5b06a"/>
+      <stop offset="100%" stop-color="#8d6b28"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
   </defs>
 
   <rect width="460" height="120" fill="transparent"/>
 
-  <g fill="url(#silver)">
-    <rect x="18" y="16" width="5" height="58" rx="1"/>
-    <rect x="27" y="16" width="3" height="58" rx="1"/>
-    <rect x="35" y="16" width="9" height="58" rx="1"/>
-    <rect x="49" y="16" width="4" height="58" rx="1"/>
-    <rect x="58" y="16" width="6" height="58" rx="1"/>
-    <rect x="69" y="16" width="3" height="58" rx="1"/>
-    <rect x="77" y="16" width="10" height="58" rx="1"/>
-    <rect x="92" y="16" width="4" height="58" rx="1"/>
-    <rect x="101" y="16" width="7" height="58" rx="1"/>
-    <rect x="113" y="16" width="3" height="58" rx="1"/>
-    <rect x="121" y="16" width="11" height="58" rx="1"/>
-    <rect x="137" y="16" width="4" height="58" rx="1"/>
+  <g filter="url(#softShadow)">
+    <rect x="18" y="16" width="5" height="58" rx="1.2" fill="url(#goldGlow)"/>
+    <rect x="27" y="16" width="3" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="35" y="16" width="9" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="49" y="16" width="4" height="58" rx="1.2" fill="url(#goldGlow)"/>
+    <rect x="58" y="16" width="6" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="69" y="16" width="3" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="77" y="16" width="10" height="58" rx="1.2" fill="url(#goldGlow)"/>
+    <rect x="92" y="16" width="4" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="101" y="16" width="7" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="113" y="16" width="3" height="58" rx="1.2" fill="url(#goldGlow)"/>
+    <rect x="121" y="16" width="11" height="58" rx="1.2" fill="url(#silver)"/>
+    <rect x="137" y="16" width="4" height="58" rx="1.2" fill="url(#goldGlow)"/>
   </g>
 
-  <text x="18" y="98" fill="#a8a8a8" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">1 0 4 8 2 7</text>
+  <text x="18" y="98" fill="#a8a8a8" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">1 2 0 4 2 6</text>
 
   <text x="170" y="55" fill="url(#silver)" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="5">BARCODE</text>
   <text x="172" y="84" fill="#bdbdbd" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">COCKTAILS</text>

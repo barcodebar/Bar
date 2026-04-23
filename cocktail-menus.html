@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Browse Barcode Cocktails classics, martinis, spirit-led cocktails, and bespoke creations for private events." />
+    <meta name="author" content="Barcode Cocktails" />
+    <title>Barcode Cocktails | Cocktail Menus</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        .cocktail-visual{display:flex;align-items:center;justify-content:center;margin-bottom:1rem;min-height:140px;padding:1rem;border-radius:18px;background:linear-gradient(180deg, rgba(212,175,55,.12), rgba(255,255,255,.02));}
+        .cocktail-visual svg{width:110px;height:110px;stroke:#d4af37;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 10px 18px rgba(0,0,0,.18));}
+        .cocktail-fill{fill:rgba(212,175,55,.14);stroke:none;}
+        .cocktail-garnish{fill:#d4af37;stroke:none;}
+        .flip-card-front .card-body,.flip-card-back .card-body{display:flex;flex-direction:column;justify-content:center;height:100%;}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark site-nav">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/Logo.svg" alt="Barcode Cocktails logo" height="46" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="cocktail-menus.html">Cocktail Menus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="enquire.html">Enquire</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container px-4 px-lg-5 page-top-space">
+        <section class="my-5 text-center">
+            <p class="section-kicker">Cocktail Menus</p>
+            <h1 class="font-weight-light">Classics, martinis, spirit-led cocktails, and bespoke creations</h1>
+            <p class="page-intro mx-auto">
+                Choose from classic cocktails, martini favourites, spirit-led serves, and bespoke drinks tailored to your event style, flavours, and atmosphere. For most events, we recommend narrowing the final menu to 5 to 7 cocktails for smooth service and a better guest experience.
+            </p>
+        </section>
+
+        <div class="filter-wrap text-center mb-4">
+            <button class="menu-filter-btn active" type="button" data-filter="all">All</button>
+            <button class="menu-filter-btn" type="button" data-filter="classics">Classics</button>
+            <button class="menu-filter-btn" type="button" data-filter="martini">Martini</button>
+            <button class="menu-filter-btn" type="button" data-filter="spirit">Spirit-Led</button>
+            <button class="menu-filter-btn" type="button" data-filter="bespoke">Bespoke</button>
+        </div>
+
+        <div class="row g-4 cocktail-grid">
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M25 40c0-10 15-18 35-18s35 8 35 18-15 18-35 18-35-8-35-18Z"/><path d="M60 58v24"/><path d="M49 89h22"/><path d="M42 97h36"/><path class="cocktail-fill" d="M30 38c5 7 17 11 30 11s25-4 30-11"/></svg></div><small>Classics</small><strong>Margarita</strong><em>Zesty, crisp, iconic</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Margarita</strong><em>Tequila, triple sec, lime, optional salt rim.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Classics</small><strong>Mojito</strong><em>Fresh, minty, lively</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Mojito</strong><em>White rum, mint, lime, sugar, soda.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M25 40c0-10 15-18 35-18s35 8 35 18-15 18-35 18-35-8-35-18Z"/><path d="M60 58v24"/><path d="M49 89h22"/><path d="M42 97h36"/><path class="cocktail-fill" d="M30 38c5 7 17 11 30 11s25-4 30-11"/></svg></div><small>Classics</small><strong>Daiquiri</strong><em>Sharp, balanced, timeless</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Daiquiri</strong><em>White rum, lime, sugar syrup.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M25 40c0-10 15-18 35-18s35 8 35 18-15 18-35 18-35-8-35-18Z"/><path d="M60 58v24"/><path d="M49 89h22"/><path d="M42 97h36"/><path class="cocktail-fill" d="M30 38c5 7 17 11 30 11s25-4 30-11"/></svg></div><small>Classics</small><strong>Cosmopolitan</strong><em>Bright, sleek, citrus-led</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Cosmopolitan</strong><em>Vodka, triple sec, cranberry, lime.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Classics</small><strong>Piña Colada</strong><em>Tropical, creamy, smooth</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Piña Colada</strong><em>Rum, coconut, pineapple, cream.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Classics</small><strong>French 75</strong><em>Elegant, sparkling, citrusy</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>French 75</strong><em>Gin, lemon, sugar, sparkling wine.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="classics">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M20 24h80L64 63v24"/><path d="M56 87h16"/><path d="M48 96h32"/><path class="cocktail-fill" d="M26 28h68L60 58Z"/><circle class="cocktail-garnish" cx="77" cy="37" r="4"/></svg></div><small>Classics</small><strong>Espresso Martini</strong><em>Rich, smooth, elegant</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Espresso Martini</strong><em>Vodka, coffee liqueur, espresso, vanilla syrup.</em></span></span></span></button>
+            </div>
+
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="martini">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M20 24h80L64 63v24"/><path d="M56 87h16"/><path d="M48 96h32"/><path class="cocktail-fill" d="M26 28h68L60 58Z"/><circle class="cocktail-garnish" cx="77" cy="37" r="4"/></svg></div><small>Martini</small><strong>Classic Martini</strong><em>Dry, crisp, timeless</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Classic Martini</strong><em>Gin or vodka, dry vermouth, citrus twist.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="martini">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M20 24h80L64 63v24"/><path d="M56 87h16"/><path d="M48 96h32"/><path class="cocktail-fill" d="M26 28h68L60 58Z"/><circle class="cocktail-garnish" cx="77" cy="37" r="4"/></svg></div><small>Martini</small><strong>Lychee Martini</strong><em>Soft, floral, modern</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Lychee Martini</strong><em>Vodka, lychee, citrus, light sweetness.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="martini">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M20 24h80L64 63v24"/><path d="M56 87h16"/><path d="M48 96h32"/><path class="cocktail-fill" d="M26 28h68L60 58Z"/><circle class="cocktail-garnish" cx="77" cy="37" r="4"/></svg></div><small>Martini</small><strong>Raspberry Martini</strong><em>Sharp, fruity, polished</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Raspberry Martini</strong><em>Vodka, raspberry, citrus, sugar balance.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="martini">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M20 24h80L64 63v24"/><path d="M56 87h16"/><path d="M48 96h32"/><path class="cocktail-fill" d="M26 28h68L60 58Z"/><circle class="cocktail-garnish" cx="77" cy="37" r="4"/></svg></div><small>Martini</small><strong>French Martini</strong><em>Fruity, bright, refined</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>French Martini</strong><em>Vodka, raspberry liqueur, pineapple juice.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="martini">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M20 24h80L64 63v24"/><path d="M56 87h16"/><path d="M48 96h32"/><path class="cocktail-fill" d="M26 28h68L60 58Z"/><circle class="cocktail-garnish" cx="77" cy="37" r="4"/></svg></div><small>Martini</small><strong>Pornstar Martini</strong><em>Passionfruit, vanilla, vibrant</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Pornstar Martini</strong><em>Vanilla vodka, passionfruit, liqueur, citrus, prosecco side.</em></span></span></span></button>
+            </div>
+
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="spirit">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M28 34c3-6 10-10 32-10s29 4 32 10l-5 44c-1 8-7 14-27 14s-26-6-27-14Z"/><path d="M31 34c8 5 18 8 29 8s21-3 29-8"/><path d="M37 50c7 5 15 7 23 7s16-2 23-7"/><path class="cocktail-fill" d="M35 55c6 3 13 5 19 5 8 0 16-2 22-5l-3 15c-1 5-5 8-18 8s-17-3-18-8Z"/><circle class="cocktail-garnish" cx="88" cy="31" r="4"/></svg></div><small>Spirit-Led</small><strong>Whiskey Sour</strong><em>Balanced, bold, smooth</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Whiskey Sour</strong><em>Whiskey, lemon, sugar syrup, optional foam.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="spirit">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M28 34c3-6 10-10 32-10s29 4 32 10l-5 44c-1 8-7 14-27 14s-26-6-27-14Z"/><path d="M31 34c8 5 18 8 29 8s21-3 29-8"/><path d="M37 50c7 5 15 7 23 7s16-2 23-7"/><path class="cocktail-fill" d="M35 55c6 3 13 5 19 5 8 0 16-2 22-5l-3 15c-1 5-5 8-18 8s-17-3-18-8Z"/><circle class="cocktail-garnish" cx="88" cy="31" r="4"/></svg></div><small>Spirit-Led</small><strong>Bramble</strong><em>Fresh, berry-led, aromatic</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Bramble</strong><em>Gin, lemon, sugar syrup, blackberry liqueur.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="spirit">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M28 34c3-6 10-10 32-10s29 4 32 10l-5 44c-1 8-7 14-27 14s-26-6-27-14Z"/><path d="M31 34c8 5 18 8 29 8s21-3 29-8"/><path d="M37 50c7 5 15 7 23 7s16-2 23-7"/><path class="cocktail-fill" d="M35 55c6 3 13 5 19 5 8 0 16-2 22-5l-3 15c-1 5-5 8-18 8s-17-3-18-8Z"/><circle class="cocktail-garnish" cx="88" cy="31" r="4"/></svg></div><small>Spirit-Led</small><strong>Old Fashioned</strong><em>Rich, spirit-forward, classic</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Old Fashioned</strong><em>Whiskey, sugar, bitters, orange zest.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="spirit">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M28 34c3-6 10-10 32-10s29 4 32 10l-5 44c-1 8-7 14-27 14s-26-6-27-14Z"/><path d="M31 34c8 5 18 8 29 8s21-3 29-8"/><path d="M37 50c7 5 15 7 23 7s16-2 23-7"/><path class="cocktail-fill" d="M35 55c6 3 13 5 19 5 8 0 16-2 22-5l-3 15c-1 5-5 8-18 8s-17-3-18-8Z"/><circle class="cocktail-garnish" cx="88" cy="31" r="4"/></svg></div><small>Spirit-Led</small><strong>Negroni</strong><em>Bitter, bold, elegant</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Negroni</strong><em>Gin, Campari, sweet vermouth, orange peel.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="spirit">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M28 34c3-6 10-10 32-10s29 4 32 10l-5 44c-1 8-7 14-27 14s-26-6-27-14Z"/><path d="M31 34c8 5 18 8 29 8s21-3 29-8"/><path d="M37 50c7 5 15 7 23 7s16-2 23-7"/><path class="cocktail-fill" d="M35 55c6 3 13 5 19 5 8 0 16-2 22-5l-3 15c-1 5-5 8-18 8s-17-3-18-8Z"/><circle class="cocktail-garnish" cx="88" cy="31" r="4"/></svg></div><small>Spirit-Led</small><strong>Manhattan</strong><em>Deep, smooth, refined</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Manhattan</strong><em>Whiskey, sweet vermouth, bitters, cherry garnish.</em></span></span></span></button>
+            </div>
+
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="bespoke">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Bespoke</small><strong>His & Hers Signature</strong><em>Personal, memorable, event-led</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Bespoke Idea</small><strong>His & Hers Signature</strong><em>Built around your favourite spirits, colours, or flavours.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="bespoke">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Bespoke</small><strong>Seasonal Special</strong><em>Fresh, tailored, stylish</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Bespoke Idea</small><strong>Seasonal Special</strong><em>Designed around the season, produce, and mood of your event.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="bespoke">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Bespoke</small><strong>Theme Match Cocktail</strong><em>Bespoke, creative, on-brand</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Bespoke Idea</small><strong>Theme Match Cocktail</strong><em>Created to match your event theme, palette, culture, or brand.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="bespoke">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Bespoke</small><strong>Yuzu Collins</strong><em>Zesty, clean, bright</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Yuzu Collins</strong><em>Gin, yuzu, citrus, soda.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="bespoke">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Bespoke</small><strong>Soju Spritz</strong><em>Fresh, social, light</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Soju Spritz</strong><em>Soju, sparkling mixer, citrus, garnish.</em></span></span></span></button>
+            </div>
+            <div class="col-md-6 col-lg-4 cocktail-item" data-category="bespoke">
+                <button class="flip-card-btn" type="button" aria-pressed="false"><span class="flip-card-inner"><span class="flip-card-front card site-card h-100"><span class="card-body"><div class="cocktail-visual" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M38 20h44l-6 76H44Z"/><path d="M48 34l9 12 8-10 9 13"/><path d="M50 15l18 20"/><path class="cocktail-fill" d="M43 54h34l-4 36H47Z"/></svg></div><small>Bespoke</small><strong>Lychee Yuzu Soju</strong><em>Fragrant, playful, modern</em></span></span><span class="flip-card-back card site-card h-100"><span class="card-body"><small>Ingredients</small><strong>Lychee Yuzu Soju</strong><em>Soju, lychee, yuzu, citrus, sparkling finish.</em></span></span></span></button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 bg-dark site-footer mt-5">
+        <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Copyright &copy; Barcode Cocktails 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
